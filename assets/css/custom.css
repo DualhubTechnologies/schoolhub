@@ -1,0 +1,69 @@
+/* Gradient Text Styles */
+.to-orange {
+  --tw-gradient-to: #a96a16;
+}
+
+.from-blue {
+  --tw-gradient-from: #227093;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(79, 182, 69, 0));
+}
+
+.text-transparent {
+  color: transparent;
+}
+
+.bg-gradient-to-r {
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-clip-text {
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+/* Gradient Button Styles */
+.btn-gradient {
+  --tw-gradient-from: #227093;
+  --tw-gradient-to: #a96a16;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  border: none;
+}
+
+.btn-gradient:hover {
+  filter: brightness(1.1);
+}
+
+.btn-gradient-dark {
+  --tw-gradient-from: #343a40;
+  --tw-gradient-to: #a96a16;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  border: none;
+}
+
+/* Custom Theme Styles */
+.contrast-shadow-md{
+  box-shadow: 4px 4px 0 0 var(--shadowColor, #267395) !important;
+}
+
+/* Hide GRecaptcha Badge */
+.grecaptcha-badge {
+  /* visibility: hidden; */
+  opacity: 0 !important;
+}
+
+
+.uc-logo .logo-link {
+    width: 260px !important;
+    max-width: none !important;
+    height: auto !important;
+}
+
+.uc-logo .school-logo {
+    width: 100% !important;
+    height: auto !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: contain;
+}
