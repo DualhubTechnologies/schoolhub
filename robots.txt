@@ -1,4 +1,12 @@
+# robots.txt for https://www.schoolhubug.com
+# SchoolHubUG — A product of DualHub Technologies
+
 User-agent: *
 Allow: /
 
-Sitemap: https://schoolhubug.com/sitemap.xml
+# Keep the portal login and system pages out of search results.
+# (login.html also carries its own <meta name="robots" content="noindex, follow"> tag.)
+Disallow: /login.html
+Disallow: /404.html
+
+Sitemap: https://www.schoolhubug.com/sitemap.xml

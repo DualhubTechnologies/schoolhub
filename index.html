@@ -1,1444 +1,765 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-      <link rel="icon" type="image/png" href="assets/images/favicon.png" />
-      <meta name="description" content="SchoolHubUG is an affordable web-based school management system by DualHub Technologies for managing students, fees, academics, attendance, staff, communication, and school operations in Uganda.">
-      <meta name="keywords" content="SchoolHubUG, school management system Uganda, school software Uganda, student management, school fees management, attendance management, academic records, DualHub Technologies">
-      <link rel="canonical" href="https://schoolhubug.com/">
-      <meta name="theme-color" content="#227093">
-      <!-- Open Graph Tags -->
-      <meta property="og:locale" content="en_US">
-      <meta property="og:type" content="website">
-      <meta property="og:title" content="SchoolHubUG &mdash; School Management System in Uganda">
-      <meta property="og:description" content="SchoolHubUG is an affordable web-based school management system by DualHub Technologies for managing students, fees, academics, attendance, staff, communication, and school operations in Uganda.">
-      <meta property="og:url" content="https://schoolhubug.com/">
-      <meta property="og:site_name" content="SchoolHubUG">
-      <meta property="og:image" content="assets/images/common/seo-image.jpg">
-      <meta property="og:image:width" content="1180">
-      <meta property="og:image:height" content="600">
-      <meta property="og:image:type" content="image/png">
-      <!-- Twitter Card Tags -->
-      <meta name="twitter:card" content="summary_large_image">
-      <meta name="twitter:title" content="SchoolHubUG &mdash; School Management System in Uganda">
-      <meta name="twitter:description" content="SchoolHubUG is an affordable web-based school management system by DualHub Technologies for managing students, fees, academics, attendance, staff, communication, and school operations in Uganda.">
-      <meta name="twitter:image" content="assets/images/common/seo-image.jpg">
-      <!-- Footer scripts -->
-      <link rel="preload" href="assets/js/libs/jquery.min.js" as="script">
-      <link rel="preload" href="assets/js/libs/scrollmagic.min.js" as="script">
-      <link rel="preload" href="assets/js/libs/swiper-bundle.min.js" as="script">
-      <link rel="preload" href="assets/js/libs/anime.min.js" as="script">
-      <link rel="preload" href="assets/js/helpers/data-attr-helper.js" as="script">
-      <link rel="preload" href="assets/js/helpers/swiper-helper.js" as="script">
-      <link rel="preload" href="assets/js/helpers/anime-helper.js" as="script">
-      <link rel="preload" href="assets/js/helpers/anime-helper-defined-timelines.js" as="script">
-      <link rel="preload" href="assets/js/uikit-components-bs.js" as="script">
-      <link rel="preload" href="assets/js/app.js" as="script">
-      <!-- Bootstrap core -->
-      <script src="assets/js/app-head-bs.js"></script>
-      <!-- Uni-core components -->
-      <link rel="stylesheet" href="assets/js/uni-core/css/uni-core.min.css">
-      <!-- Styles -->
-      <link rel="stylesheet" href="assets/css/unicons.min.css">
-      <link rel="stylesheet" href="assets/css/prettify.min.css">
-      <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-      <!-- Main style -->
-      <link rel="stylesheet" href="assets/css/theme/main.min.purge.css">
-      <!-- Custom style -->
-      <link rel="stylesheet" href="assets/css/custom.css">
-      <!-- IBM Plex Font -->
-      <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&amp;display=swap" rel="stylesheet">
-      <!-- Scripts -->
-      <script src="assets/js/uni-core/js/uni-core-bundle.min.js"></script>
-      <!-- Meta Pixel Code -->
-      <script>
-      !function(f,b,e,v,n,t,s)
-      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-      n.queue=[];t=b.createElement(e);t.async=!0;
-      t.src=v;s=b.getElementsByTagName(e)[0];
-      s.parentNode.insertBefore(t,s)}(window, document,'script',
-      '../connect.facebook.net/en_US/fbevents.js');
-      fbq('init', '1456070439104813');
-      fbq('track', 'PageView');
-      </script>
-      <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=1456070439104813&amp;ev=PageView&amp;noscript=1"
-      /></noscript>
-      <!-- /End Meta Pixel Code -->
-      <!-- Google Tag Manager -->
-      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-MTTDQTP3');</script>
-      <!-- /End Google Tag Manager -->
-      <!--MSClarity-->
-      <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "qt7c8ct364");
-       </script>
-       <!--/End MSClarity-->
-       <!--Astra-->
-       <script src="../astra.wati.io/widget/astra.js" id="0cbb0f31-53ab-4484-8cf6-75a0cfa65066" data-mode="ai_bar" data-from="instruction" defer></script>
-       <!--/End Astra-->
-       <!-- Recaptcha -->
-       <script src="../www.google.com/recaptcha/enterprise82a4.js?render=6LeJ9yEsAAAAAKbwP8Q1ZhbQGA-GS3Ezk2a7SpaV"></script>
-      <!--/End Recaptcha -->
-      <title>SchoolHubUG &mdash; School Management System in Uganda</title>
-    </head>
-    <body class="uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden">
-      <!--  GDPR modal -->
-      <div id="uc-gdpr-notification" class="uc-gdpr-notification uc-notification min-w-1/2 uc-notification-bottom-left lg:m-2">
-        <div class="uc-notification-message vstack lg:hstack items-end gap-2 lg:gap-4 lg:p-3 bg-white text-dark border rounded-1-5 min-w-1/2">
-          <a id="uc-close-gdpr-notification" class="uc-notification-close text-dark" data-uc-close></a>
-          <div class="vstack">
-              <h2 class="h5 ft-primary fw-bold -ls-1 m-0 text-dark">We use cookies</h2>
-              <p class="fs-6 mt-1">We use cookies to ensure you get the best experience on our website. By continuing to use our website, you accept our use of cookies, <a class='uc-link text-underline' href='privacy-policy.html'>privacy policy</a> and <a class='uc-link text-underline' href='terms-of-use.html'>terms of service</a>.</p>
-          </div>
-          <button class="btn btn-sm btn-primary px-2 h-40px rounded-pill" id="uc-accept-gdpr"> <i class="icon-narrow unicon-checkmark-outline"></i> Accept</button>
-        </div>
-      </div>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SchoolHubUG — School Management System in Uganda</title>
+<meta name="description" content="SchoolHubUG is a cloud-based school management platform for nursery, primary, secondary, and tertiary institutions in Uganda — admissions, fees, academics, and reporting in one place.">
+<link rel="canonical" href="https://www.schoolhubug.com/">
 
-      <div id="uc-search-modal" class="uc-modal-full uc-modal" data-uc-modal="overlay: true">
-        <div class="uc-modal-dialog d-flex justify-center bg-white text-dark dark:bg-gray-900 dark:text-white" data-uc-height-viewport="">
-          <div class="uc-modal-close-full m-1 p-0 vstack gap-narrow text-center">
-            <button class="icon-3 btn btn-md btn-dark dark:bg-white dark:text-dark w-24px sm:w-32px h-24px sm:h-32px rounded-circle flex-1" type="button">
-              <i class="unicon-close"></i>
-            </button>
-            <span class="ft-tertiary fs-7">ESC</span>
-          </div>
-          <div class="panel w-100 sm:w-500px px-2 py-10">
-            <h3 class="h4 sm:h2 text-center">What are you looking for?</h3>
-            <form class="hstack gap-1 mt-4 border-bottom p-narrow dark:border-gray-700" action="https://schoolhubug.com/search?" method="GET">
-              <span class="d-inline-flex justify-center items-center w-24px sm:w-40 h-24px sm:h-40px opacity-50"><i class="unicon-search icon-3"></i></span>
-              <input type="text" autocomplete="off" name="q" class="form-control-plaintext ms-1 fs-6 sm:fs-5 w-full dark:text-white" placeholder="Type your keyword.." aria-label="Search" autofocus>
-            </form>
-          </div>
-        </div>
-      </div>
-      <!--  Menu panel -->
-      <div id="uc-menu-panel" data-uc-offcanvas="overlay: true;">
-        <div class="uc-offcanvas-bar bg-white text-dark dark:bg-gray-900 dark:text-white">
-          <header class="uc-offcanvas-header hstack justify-between items-center pb-2 bg-white dark:bg-gray-900">
-            <div class="uc-logo">
-              <a class='h5 text-none text-gray-900 dark:text-white' href='index.html'>
-                <img class="w-32px" src="assets/images/common/logo-mark.svg" alt="SchoolHubUg">
-              </a>
-            </div>
-            <button class="uc-offcanvas-close rtl:end-auto rtl:start-0 m-1 mt-2 icon-3 btn border-0 dark:text-white dark:text-opacity-50 hover:text-primary hover:rotate-90 duration-150 transition-all" type="button">
-              <i class="unicon-close"></i>
-            </button>
-          </header><!-- Mobile Menu -->
-<div class="panel">
-  <form id="search-panel" class="form-icon-group vstack gap-1 mb-2" data-uc-sticky="" action="https://SchoolHubUg.com/search?" method="GET">
-    <input type="text" autocomplete="off" name="q" class="form-control form-control-sm fs-7 rounded-default" placeholder="Search..">
-    <span class="form-icon text-gray">
-      <i class="unicon-search icon-1"></i>
-    </span>
-  </form>  
-  <ul class="nav-y gap-narrow fw-medium fs-6" data-uc-nav>
-    <li><a class='' href='#'>Features</a></li>
-    <li><a class='' href='#'>Pricing</a></li>
-    <li><a class='' href='#'>Insights</a></li>
-    <li class="uc-parent ">
-      <a class="" href="#">About</a>
-      <ul class="uc-nav-sub ">
-        <li class="" role="presentation">
-          <a class="" href="#">About SchoolHubUg</a>
-        </li>
-        <li class="" role="presentation">
-          <a class="" href="#">Downloads</a>
-        </li>
-        <li class="" role="presentation">
-          <a class="" href="#">Events</a>
-        </li>
-      </ul>
-    </li>
-    <li><a class='' href='#'>Partners</a></li>
-    <li><a class='' href='#'>Contacts</a></li>
-    <li class="hr opacity-10 my-1"></li>
-    <li><a target="_blank" href='#'>Login (Demo)</a></li>
-    <li><a class='' href='#'>Book a Demo</a></li>
-  </ul>
-  <ul class="social-icons nav-x mt-4">
-    <li>
-      <a href="https://linkedin.com/company/SchoolHubUg" target="_blank"><i class="unicon-logo-linkedin icon-2"></i></a>
-      <a href="https://facebook.com/SchoolHubUg" target="_blank"><i class="unicon-logo-facebook icon-2"></i></a>
-      <a href="https://x.com/SchoolHubUg" target="_blank"><i class="unicon-logo-x-filled icon-2"></i></a>
-    </li>
-  </ul>
-  <div class="py-2 hstack gap-2 mt-4 bg-white dark:bg-gray-900" data-uc-sticky="position: bottom">
-    <div class="vstack gap-1">
-      <span class="fs-7 opacity-60">Select theme:</span>
-      <div class="darkmode-trigger" data-darkmode-switch="">
-        <label class="switch">
-          <input type="checkbox">
-          <span class="slider fs-5"></span>
-        </label>
-      </div>
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SchoolHubUG">
+<meta property="og:title" content="SchoolHubUG — School Management System in Uganda">
+<meta property="og:description" content="Manage admissions, fees, academics, and reporting for your Ugandan school from one secure cloud platform.">
+<meta property="og:url" content="https://www.schoolhubug.com/">
+<meta property="og:image" content="https://www.schoolhubug.com/assets/og-image.jpg">
+<meta property="og:locale" content="en_UG">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SchoolHubUG — School Management System in Uganda">
+<meta name="twitter:description" content="Admissions, fees, academics, and reporting for Ugandan schools — in one secure cloud platform.">
+<meta name="twitter:image" content="https://www.schoolhubug.com/assets/og-image.jpg">
+
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="#0f2a4a">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+
+<!-- JSON-LD: Organization -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SchoolHubUG",
+  "url": "https://www.schoolhubug.com",
+  "email": "dualhubtechnologies@gmail.com",
+  "telephone": "+256782863209",
+  "areaServed": "Uganda",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "DualHub Technologies"
+  }
+}
+</script>
+<!-- JSON-LD: SoftwareApplication -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "SchoolHubUG",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "Web",
+  "url": "https://www.schoolhubug.com",
+  "description": "Cloud-based school management system for nursery, primary, secondary, and tertiary institutions in Uganda."
+}
+</script>
+<!-- JSON-LD: WebSite -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "SchoolHubUG",
+  "url": "https://www.schoolhubug.com"
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ============ HEADER ============ -->
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo" aria-label="SchoolHubUG home">
+      <span class="logo-mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/></svg>
+      </span>
+      SchoolHubUG
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="features.html">Features</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="faq.html">FAQs</a>
+      <a href="contact.html">Contact</a>
+      <a href="login.html">Login</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="contact.html" class="btn btn-secondary">Login</a>
+      <a href="contact.html" class="btn btn-primary">Request a Demo</a>
+      <button class="hamburger" aria-expanded="false" aria-controls="mobile-drawer" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </div>
-</div>
-</div>
-</div>
-<!--  Bottom Actions Sticky -->
-<div class="backtotop-wrap position-fixed bottom-0 start-0 z-99 m-2 vstack">
-  <div class="darkmode-trigger cstack w-40px h-40px rounded-circle text-none bg-gray-100 dark:bg-gray-700 dark:text-white" data-darkmode-toggle="">
-    <label class="switch">
-      <span class="sr-only">Dark mode toggle</span>
-      <input type="checkbox">
-      <span class="slider fs-5"></span>
-    </label>
-  </div>
-  <a class="btn btn-sm bg-primary text-white w-40px h-40px rounded-circle" href="#" data-uc-backtotop>
-    <i class="icon-2 unicon-chevron-up"></i>
-  </a>
+</header>
+
+<div class="mobile-drawer" id="mobile-drawer">
+  <a href="index.html">Home</a>
+  <a href="features.html">Features</a>
+  <a href="pricing.html">Pricing</a>
+  <a href="about.html">About</a>
+  <a href="faq.html">FAQs</a>
+  <a href="contact.html">Contact</a>
+  <a href="login.html">Login</a>
+  <a href="contact.html" class="btn btn-primary btn-block">Request a Demo</a>
 </div>
 
-<!-- Main Menu -->
-<header class="uc-header header-default uc-navbar-sticky-wrap z-999 uc-dark" style="--uc-nav-height: 80px" data-uc-sticky="start: 100vh; show-on-up: true; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: !*;">
-  <nav class="uc-navbar-container uc-navbar-float ft-tertiary z-1 ">
-    <div class="uc-navbar-top text-dark d-none lg:d-block" style="--uc-nav-height:32px">
-  <div class="hide-on-sticky">
-    <div class="container container-expand max-w-1440px">
-      <div class="uc-navbar min-h-32px">
-        <div class="uc-navbar-left">
-          <ul class="uc-navbar-nav gap-2 fw-medium ">
-            <li>
-              <a href="#"><span class="dark:text-white text-dark">Privacy policy</span>
-                <i class= "unicon-arrow-up-right fw-bold ms-narrow rtl:-rotate-90 dark:text-white text-dark"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#"><span class="dark:text-white text-dark">Terms of use</span>
-                <i class= "unicon-arrow-up-right fw-bold ms-narrow rtl:-rotate-90 dark:text-white text-dark"></i>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div class="uc-navbar-right">
-          <div class="uc-navbar-item">
-            <a class="btn btn-sm p-0 text-dark dark:text-white hover:text-gray-400" href="tel:+256782863209">
-              <i class="icon-narrow unicon-headset fw-bold"></i>Support: +256 782 863209
-            </a>
-          </div>
-          <div class="uc-navbar-item">
-            <a class="btn btn-sm p-0 text-dark dark:text-white hover:text-gray-400" href="#" aria-label="Chat with us" role="button" onclick="CrispStatusCommon.open_chatbox(); return false;">
-              <i class="icon-narrow unicon-chat-launch fw-bold"></i>
-              <span>Live Chat</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>    <div class="container max-w-xl">
-    <div class="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white">
-        <div class="uc-navbar-left">
-            <div class="uc-logo text-dark dark:text-white">
-                <a class="panel text-none logo-link" href="index.html">
-                    <img class="dark:d-none school-logo"
-                         src="assets/images/common/logo-light.png"
-                         alt="SchoolHubUG">
+<main id="main">
 
-                    <img class="d-none dark:d-block school-logo"
-                         src="assets/images/common/logo-dark.png"
-                         alt="SchoolHubUG">
-                </a>
-          </div>
-          <ul class="uc-navbar-nav gap-3 xl:gap-4 d-none lg:d-flex fw-medium ms-2">
-            <li><a class=' fs-5' href='#'>Features</a></li>
-            <li><a class=' fs-5' href='#'>Pricing</a></li>
-            <li><a class=' fs-5' href='#'>Insights</a></li>
-            <li class="has-dd-menu " style="position:relative">
-              <a href="#" role="button" aria-haspopup="true" class="fs-5">About
-                <span data-uc-navbar-parent-icon="" class="uc-icon uc-navbar-parent-icon">
-                  <polyline fill="none" stroke="#000" stroke-width="1.1" points="1 3.5 6 8.5 11 3.5"></polyline>
-                </span>
-              </a>
-              <div class="uc-navbar-dropdown w-600px ft-primary text-unset fs-6 fw-normal p-0 hide-scrollbar rounded-0 overflow-hidden uc-drop" data-uc-drop="mode: hover; offset: 0; boundary: !.uc-navbar; animation: uc-animation-slide-top-small; duration: 150;">
-                <div class="row child-cols-6 g-0 col-match">
-                  <div>
-                    <ul class="uc-nav uc-navbar-dropdown-nav p-2">
-                      <li>
-                        <a class="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5" href="about.html">
-                          <i class="icon-1 unicon-information fw-bold text-primary dark:text-secondary "></i>
-                          <span class="vstack gap-narrow mt-nnarrow">
-                            <b class="fw-bold fs-6 dark:text-white ">About SchoolHubUg</b>
-                            <span class="fw-medium">for schools, and other academic institutions</span>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5" href="about/downloads.html" role="button">
-                          <i class="icon-1 unicon-download-cloud fw-bold text-primary dark:text-secondary "></i>
-                          <span class="vstack gap-narrow mt-nnarrow">
-                            <b class="fw-bold fs-6 dark:text-white ">Downloads</b>
-                            <span class="fw-medium">Access downloadables</span>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5" href="about/events.html">
-                          <i class="icon-1 unicon-event-schedule fw-bold text-primary dark:text-secondary "></i>
-                          <span class="vstack gap-narrow mt-nnarrow">
-                            <b class="fw-bold fs-6 dark:text-white ">Events</b>
-                            <span class="fw-medium">What's happening at SchoolHubUg</span>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5" href="about/team.html">
-                          <i class="icon-1 unicon-user-multiple fw-bold text-primary dark:text-secondary "></i>
-                          <span class="vstack gap-narrow mt-nnarrow">
-                            <b class="fw-bold fs-6 dark:text-white ">Team</b>
-                            <span class="fw-medium">Meet SchoolHubUg team</span>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a class="hstack items-start gap-2 p-2 hover:bg-gray-600 hover:bg-opacity-5 dark:hover:bg-white duration-150 rounded-1-5" href="about/jobs.html">
-                          <i class="icon-1 unicon-portfolio fw-bold text-primary dark:text-secondary "></i>
-                          <span class="vstack gap-narrow mt-nnarrow">
-                            <b class="fw-bold fs-6 dark:text-white ">Jobs</b>
-                            <span class="fw-medium">Join SchoolHubUg</span>
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div>
-                    <div class="vstack gap-2 p-3 h-100 bg-gray-25 dark:bg-gray-300 dark:bg-opacity-5">
-                      <div class="featured-image panel" data-uc-lightbox="video-autoplay: true;">
-                        <figure class="featured-image m-0 rounded ratio ratio-3x2 rounded-1-5 uc-transition-toggle overflow-hidden">
-                          <img alt="Image" loading="lazy" width="1500" height="1000" decoding="async" data-nimg="1" class="media-cover image uc-transition-scale-up uc-transition-opaque" style="color:transparent" srcset="https://SchoolHubUg.com/assets/images/template/SchoolHubUg_Customer_Stories _Pricing.png" src="assets/images/template/SchoolHubUg_Customer_Stories%20_Pricing.png">
-                        </figure>
-                        <button class="btn btn-md btn-alt-primary p-0 w-32px h-32px position-absolute bottom-0 ltr:start-0 rtl:end-0 m-2">
-                          <i class="icon-1 unicon-play-filled fw-medium"></i>
-                        </button>
-                        <a href="https://www.youtube.com/watch?v=KI_L_3hMAi4&amp;t=160s" data-caption="SchoolHubUg Customer Success Stories" data-attrs="widddth: 640; heeeight: 480;" class="position-cover" role="button"></a>
-                      </div>
-                      <div class="vstack justify-between gap-2">
-                        <div class="vstack gap-1">
-                          <h5 class="h5 m-0">Customer Success Stories</h5>
-                          <p class="fs-6 opacity-70">Discover how SchoolHubUG simplifies school management by bringing student records, attendance, fees, academic performance, and communication together in one powerful platform.</p>
-                        </div>
-                        <a class="btn-gradient btn btn-sm btn-primary rounded-pill" href="#">Start free trial</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li><a class=' fs-5' href='#'>Partners</a></li>
-          </ul>
-        </div>
-        <div class="uc-navbar-right">
-          <div class="d-none xl:d-block">
-            <a class="text-none fw-medium fs-5 " href="#">
-              <span>Book a demo</span>
-            </a>
-          </div>
-          <div class="d-none lg:d-block">
-            <a class='text-none fw-medium fs-5' href='#' target="_blank">
-              <span>Log in</span>
-            </a>
-          </div>
-          <a class='btn-gradient border-1 border-gray-300 border btn btn-sm btn-dark rounded-pill text-white  dark:text-white text-none d-none lg:d-inline-flex' href='contact-us.html'>
-            Contacts
-            <i class="position-relative icon icon-1 unicon-arrow-up-right rtl:rotate-180 translate-y-px"></i>
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-copy">
+        <p class="eyebrow">School management, simplified</p>
+        <h1>Manage Your Entire School From One Simple Platform</h1>
+        <p class="lead">SchoolHubUG brings admissions, academic assessment, fees, expenses, discipline, and student reporting together in one secure cloud-based system built for Ugandan schools.</p>
+        <div class="btn-group">
+          <a href="contact.html" class="btn btn-primary btn-lg">Request a Free Demo</a>
+          <a href="https://wa.me/256782863209?text=Hello%20SchoolHubUG%2C%20I%20would%20like%20to%20request%20a%20demonstration%20of%20the%20school%20management%20system." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.52 3.62 1.42 5.12L2 22l5.13-1.51a9.87 9.87 0 004.91 1.31h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.51 2 12.04 2zm0 17.9a8 8 0 01-4.08-1.12l-.29-.17-3.05.9.9-2.97-.19-.3a7.9 7.9 0 01-1.22-4.24 8.02 8.02 0 1113.98 5.35 7.93 7.93 0 01-5.05 2.55h-1z"/></svg>
+            Chat on WhatsApp
           </a>
-          <div class="d-inline-block">
-            <a href="#uc-search-modal" data-uc-toggle class="hstack gap-narrow text-none fw-medium">
-              <i class="icon icon-1 unicon-search"></i>
-            </a>
-          </div>
-          <a class="d-block lg:d-none" href="#uc-menu-panel" data-uc-navbar-toggle-icon data-uc-toggle></a>
+        </div>
+
+        <div class="hero-trust">
+          <span class="hero-trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Easy to Use</span>
+          <span class="hero-trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>Secure Cloud Access</span>
+          <span class="hero-trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/></svg>Built for Ugandan Schools</span>
+          <span class="hero-trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>Reliable Support</span>
         </div>
       </div>
-    </div>
-  </nav>
-</header><div id="wrapper" class="wrap">
 
-  <div id="hero_header" class="hero-header section panel overflow-hidden">
-    <div class="position-absolute top-0 start-0 end-0 h-500px xl:h-screen bg-blue-600" style="background-image: url(assets/images/template/Footer_Pattern_SchoolHubUg.svg);background-position: 25% 50%;background-repeat: no-repeat;"></div>
-    <div class="position-absolute top-0 start-0 end-0 min-h-screen overflow-hidden d-none lg:d-block uc-dark">
-      <div id="image-container" class="position-absolute top-0 end-0 rotate-0" style="top: 0% !important; right: 0% !important" data-base-url="assets/images/template/index.html">
-        <img id="dynamic-bg" src="assets/images/template/Landing_Bg-01.png" alt="Landing SchoolHubUg Home" class="fade" data-uc-svg>
-      </div>
-    </div>
-    <style>
-      #dynamic-bg,.dynamic-content {transition: opacity 0.5s ease-in-out; opacity: 1;}
-      #dynamic-bg.hidden, .dynamic-content.hidden {opacity: 0;}
-      .dynamic-content.d-none {display: none;}
-    </style>
-    <div class="section-outer panel pb-6 pt-9 sm:pb-4 sm:pt-10 lg:pb-7 xl:pb-7">
-      <div class="container max-w-xl p-0">
-        <div class="section-inner panel">
-          <div class="vstack gap-6 sm:gap-8 xl:gap-9">
-            <div class="panel mx-2 uc-dark max-w-550px px-0 sm:px-2 lg:px-4 xl:px-4">
-              <div class="vstack items-start gap-3 text-white">
-                <div id="section-one" class="dynamic-content">
-                  <h4 class="h4 sm:h2 lg:display-8 xl:display-7 sm:pt-2 lg:pt-6 xl:pt-6 mt-0 sm:mt-0 mb-1"> Automate your School</h4>
-                  <p class="fs-5 text-dark dark:text-white text-opacity-60 mb-1">For Primary Schools, Secondary, and Higher Education Institutions</p>
-                  <a class='btn btn-md rounded-pill btn-dark text-white mt-1' href='https://demo.SchoolHubUg.com/' target="_blank">Get started <i class="icon icon-1 unicon-arrow-up-right"></i></a>
-                </div>
-                <div id="section-two" class="dynamic-content d-none">
-                  <h4 class="h4 sm:h2 lg:display-8 xl:display-7 sm:pt-2 lg:pt-6 xl:pt-6 mt-0 sm:mt-0 mb-1"> Enrol Students</h4>
-                  <p class="fs-5 text-dark dark:text-white text-opacity-60 mb-1">Simplify student registration and management</p>
-                  <a class='btn btn-md rounded-pill btn-dark text-white mt-1' href='enrol.html'>Get started <i class="icon icon-1 unicon-arrow-up-right"></i></a>
-                </div>
-                <div id="section-three" class="dynamic-content d-none">
-                  <h4 class="h4 sm:h2 lg:display-8 xl:display-7 sm:pt-2 lg:pt-6 xl:pt-6 mt-0 sm:mt-0 mb-1">Success Stories</h4>
-                  <p class="fs-5 text-dark dark:text-white text-opacity-60 mb-1">Building stronger Schools one at a time</p>
-                  <span data-uc-lightbox="video-autoplay: true;">
-                    <a href="https://www.youtube.com/watch?v=KI_L_3hMAi4&amp;t=160s" class="btn btn-md rounded-pill btn-dark text-white mt-1" data-caption="SchoolHubUg Customer Success Stories">
-                      <span>Watch Video</span>
-                      <i class="icon-1 unicon-play-filled fw-bold"></i>
-                    </a>
-                  </span>  
-                  <a class="btn btn-md rounded-pill btn-dark text-white mt-1" href='partners.html'>Partners <i class="icon icon-1 unicon-arrow-up-right"></i></a>
-                </div>
-                <div class="hstack justify-start gap-2 mt-1 sm:mt-2">
-                  <div class="hstack justify-start gap-0">
-                    <img alt="Bishop Stuart University" title="Bishop Stuart University" class="w-40px h-40px rounded-circle border border-2 border-white" src="assets/images/brands/brand-01-06.svg">
-
-                  </div>
-                  <span class="fs-5 sm:fs-5 fw-medium opacity-60">Trusted by <span data-anime="onview: -100; textContent: [0, 25]; round: 1; easing: linear; duration: 1200;">0</span>+ Schools</span>
-                </div>
-              </div>
-            </div>
+      <!-- Signature element: live-feel class timetable rail -->
+      <div class="timetable-rail" aria-label="Sample class timetable, illustrative">
+        <div class="timetable-head">
+          <h3>Today's Timetable — S.3 East</h3>
+          <span>Sample data</span>
+        </div>
+        <div class="timetable-list">
+          <div class="timetable-row" data-order="0"><span class="time">08:00</span><span class="subject">Mathematics <span class="status-dot" aria-hidden="true"></span></span><span class="room">Room 12</span></div>
+          <div class="timetable-row" data-order="1"><span class="time">08:40</span><span class="subject">Physics <span class="status-dot" aria-hidden="true"></span></span><span class="room">Lab 2</span></div>
+          <div class="timetable-row" data-order="2"><span class="time">09:20</span><span class="subject">English Language <span class="status-dot" aria-hidden="true"></span></span><span class="room">Room 12</span></div>
+          <div class="timetable-row" data-order="3"><span class="time">10:00</span><span class="subject">History <span class="status-dot" aria-hidden="true"></span></span><span class="room">Room 7</span></div>
+          <div class="timetable-row" data-order="4"><span class="time">10:40</span><span class="subject">Agriculture <span class="status-dot" aria-hidden="true"></span></span><span class="room">Farm Plot</span></div>
+        </div>
+        <div class="timetable-progress">
+          <div style="flex:1">
+            <div class="flex-between"><span>Term 2 progress</span><span>62%</span></div>
+            <div class="timetable-progress-bar"><span></span></div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
 
-  <div id="main_features" class="main-features section panel overflow-hidden" style="background-image: url(assets/images/template/Home_Pattern_Bottom.svg);background-position: 26% -2%;background-repeat: no-repeat;">
-    <div class="section-outer panel pb-6 xl:pb-6 dark:bg-gray-700 dark:text-white">
-      <div class="container max-w-xl lg:max-w-lg">
-        <div class="section-inner panel">
-          <div class="panel vstack items-center lg:mt-2 gap-2 xl:gap-2 sm:max-w-1000px xl:max-w-1000px mx-auto text-center">
-            <h2 class="h3 lg:h3 xl:h2 m-0 mt-2 sm:mt-2 text-primary">Made for
-              <span class="from-blue to-orange text-transparent bg-gradient-to-r bg-clip-text" data-uc-typed="typeSpeed: 80; backSpeed: 50; backDelay: 1500; loop: true;">
-                <span>your Schools!</span>
-                <span>Administration</span>
-                <span>Management</span>
-                <span>Enrollment</span>
-              </span>
-            </h2>
-            <p class="fs-5 xl:fs-4 text-dark dark:text-white pb-3">SchoolHubUg® helps you to make the best out of your Schools. Focus on what really matters. EASILY track;</p>
+      <div class="scroll-cue" aria-hidden="true">
+        See what's inside
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ IMPACT BAND (photo + animated stats) ============ -->
+  <section class="impact-band">
+    <div class="impact-bg" style="background-image: url('https://images.pexels.com/photos/31820972/pexels-photo-31820972.jpeg?auto=compress&cs=tinysrgb&w=1600');" role="img" aria-label="Ugandan school students and teacher in a classroom"></div>
+    <div class="container">
+      <div class="impact-band-inner">
+        <div class="impact-copy reveal">
+          <p class="eyebrow">Built around real school life</p>
+          <h2>The everyday work of running a school, made lighter</h2>
+          <p>Behind every dashboard number is a real classroom, a real bursar's office, and a real parent checking their phone for updates. SchoolHubUG is built for that daily reality.</p>
+        </div>
+        <div class="impact-stats reveal">
+          <div class="impact-stat">
+            <span class="num" data-count-to="12" data-decimals="0">0<span class="suffix">+</span></span>
+            <span class="label">Core modules in one platform</span>
           </div>
-          <div class="panel vstack gap-4 xl:gap-6">
-            <div class="panel px-3 rounded-2 bg-gray-50 dark:bg-gray-800" data-uc-sticky="end: #main_features; offset: 80; media: @m;">
-<ul class="main-features-nav hstack text-center overflow-auto"
-    data-uc-switcher="connect: .main-features-switcher; active: 1; animation: uc-animation-fade;">
-
-    <li>
-        <a class="h6 lg:h5 text-nowrap m-0" href="#">
-            Student Management
-        </a>
-    </li>
-
-    <li>
-        <a class="h6 lg:h5 text-nowrap m-0" href="#">
-            Fees & Payments
-        </a>
-    </li>
-
-    <li>
-        <a class="h6 lg:h5 text-nowrap m-0" href="#">
-            Attendance & Academics
-        </a>
-    </li>
-
-    <li>
-        <a class="h6 lg:h5 text-nowrap m-0" href="#">
-            Reports & Communication
-        </a>
-    </li>
-</ul>
-            </div>
-            <div class="main-features-switcher uc-switcher overflow-hidden">
-              <div>
-                <div class="feature-item panel">
-                  <div class="row child-cols col-match justify-between g-4">
-                    <div class="col-12 sm:col-6">
-                      <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
-                        <img class="media-cover image" src="assets/images/template/Home_Images-02.png" alt="Manage your funds effortlessly">
-                      </figure>
-                    </div>
-                    <div class="col-12 sm:col-6">
-                      <div class="panel">
-                        <div class="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
-                          <div>
-                            <div class="panel vstack gap-2">
-                              <h3 class="h4 sm:h3 lg:h2 m-0">Manage your funds effortlessly</h3>
-                              <p class="fs-6 lg:fs-5 dark:opacity-80">Our intuitive platform lets you oversee members' savings and withdrawals with ease. Instantly access funds, monitor transactions, and plan your financial future—all from a single dashboard.</p>
-                              <a href="features.html" class="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2">
-                                <span>See all features</span>
-                                <i class="position-relative icon icon-1 unicon-arrow-up-right rtl:rotate-180 translate-y-px"></i>
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-<div class="feature-item panel">
-  <div class="row child-cols col-match justify-between g-4">
-    <div class="col-12 sm:col-6">
-      <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
-        <img class="media-cover image"
-             src="assets/images/template/Home_Images-01.png"
-             alt="Simplify school fees and payments">
-      </figure>
-    </div>
-
-    <div class="col-12 sm:col-6">
-      <div class="panel">
-        <div class="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
-          <div>
-            <div class="panel vstack gap-2">
-              <h3 class="h4 sm:h3 lg:h2 m-0">
-                Simplify school fees and payments
-              </h3>
-
-              <p class="fs-6 lg:fs-5 dark:opacity-80">
-                Track fee collections, outstanding balances and payment history
-                in real time. SchoolHubUG helps your school manage billing,
-                issue receipts and keep accurate financial records.
-              </p>
-
-              <a href="features/fees-and-payments.html"
-                 class="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2">
-                <span>Find out how</span>
-                <i class="position-relative icon icon-1 unicon-arrow-up-right rtl:rotate-180 translate-y-px"></i>
-              </a>
-            </div>
+          <div class="impact-stat">
+            <span class="num" data-count-to="4" data-decimals="0">0<span class="suffix">+</span></span>
+            <span class="label">School levels supported, nursery to tertiary</span>
+          </div>
+          <div class="impact-stat">
+            <span class="num" data-count-to="1" data-decimals="0">0<span class="suffix">-login</span></span>
+            <span class="label">Place for admissions, fees &amp; reports</span>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+    <span class="photo-credit">Photo: ARISTIDE OUEDRAOGO / Pexels</span>
+  </section>
 
-<div>
-  <div class="feature-item panel">
-    <div class="row child-cols col-match justify-between g-4">
-      <div class="col-12 sm:col-6">
-        <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
-          <img class="media-cover image"
-               src="assets/images/template/Home_Images-03.png"
-               alt="Manage attendance and academic performance">
-        </figure>
+  <!-- ============ TRUST / BENEFITS STRIP ============ -->
+  <section class="section-alt" style="padding-block: var(--sp-7);">
+    <div class="container">
+      <div class="benefit-strip">
+        <div class="benefit-item reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></span>
+          <p>Save administrative time</p>
+        </div>
+        <div class="benefit-item reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></span>
+          <p>Improve financial accountability</p>
+        </div>
+        <div class="benefit-item reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg></span>
+          <p>Access records from anywhere</p>
+        </div>
+        <div class="benefit-item reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
+          <p>Keep parents informed</p>
+        </div>
+        <div class="benefit-item reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg></span>
+          <p>Make data-driven decisions</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CORE FEATURES ============ -->
+  <section class="section" id="features">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">Everything in one place</p>
+        <h2>Core features school teams use every day</h2>
+        <p class="lead">From admissions to analytics, SchoolHubUG covers the full administrative workflow of a modern Ugandan school.</p>
       </div>
 
-      <div class="col-12 sm:col-6">
-        <div class="panel">
-          <div class="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
+      <div class="grid grid-3">
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></span>
+          <h3>Student Admissions &amp; Registration</h3>
+          <p>Digitise applications and enrol new students in minutes, with records that carry forward automatically each term.</p>
+          <a class="learn-more" href="features.html#admissions">Learn more</a>
+        </article>
+
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg></span>
+          <h3>Academic Assessment &amp; Marks Entry</h3>
+          <p>Teachers enter marks per subject and class, with automatic grading and moderation built in.</p>
+          <a class="learn-more" href="features.html#assessment">Learn more</a>
+        </article>
+
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><path d="M14 2v6h6"/><path d="M9 13h6M9 17h6"/></svg></span>
+          <h3>Report Cards &amp; Student Reports</h3>
+          <p>Generate consistent, professional report cards per term, ready to print or share with parents.</p>
+          <a class="learn-more" href="features.html#reports">Learn more</a>
+        </article>
+
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></span>
+          <h3>Fees Management</h3>
+          <p>Track fees structures, balances, and payment history per student, class, or term at a glance.</p>
+          <a class="learn-more" href="features.html#fees">Learn more</a>
+        </article>
+
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 9V7a5 5 0 00-10 0v2"/><rect x="5" y="9" width="14" height="12" rx="2"/></svg></span>
+          <h3>SchoolPay Integration</h3>
+          <p>Reconcile and monitor payments made through SchoolPay where the integration is configured for your school.</p>
+          <a class="learn-more" href="features.html#schoolpay">Learn more</a>
+        </article>
+
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg></span>
+          <h3>Income &amp; Expense Tracking</h3>
+          <p>Record school income and expenditure side by side for clearer, more accountable financial reporting.</p>
+          <a class="learn-more" href="features.html#income-expense">Learn more</a>
+        </article>
+
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></span>
+          <h3>Discipline &amp; Behaviour Records</h3>
+          <p>Log incidents and merits consistently, so patterns are visible to head teachers and guardians alike.</p>
+          <a class="learn-more" href="features.html#discipline">Learn more</a>
+        </article>
+
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></span>
+          <h3>Attendance Management</h3>
+          <p>Mark attendance per class or subject and spot absenteeism trends before they become a problem.</p>
+          <a class="learn-more" href="features.html#attendance">Learn more</a>
+        </article>
+
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 00-4-4H6a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg></span>
+          <h3>Student &amp; Parent Records</h3>
+          <p>Keep guardian contacts, medical notes, and family information organised and easy to search.</p>
+          <a class="learn-more" href="features.html#records">Learn more</a>
+        </article>
+
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></span>
+          <h3>Staff &amp; User Management</h3>
+          <p>Set role-based permissions so every staff member sees exactly what their role needs, no more.</p>
+          <a class="learn-more" href="features.html#staff">Learn more</a>
+        </article>
+
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></span>
+          <h3>SMS / Parent Communication</h3>
+          <p>Send fee reminders, attendance alerts, and announcements straight to parents' phones.</p>
+          <a class="learn-more" href="features.html#communication">Learn more</a>
+        </article>
+
+        <article class="card feature-card reveal">
+          <span class="icon-badge" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6"/><rect x="12" y="8" width="3" height="10"/><rect x="17" y="5" width="3" height="13"/></svg></span>
+          <h3>Dashboards &amp; Analytics</h3>
+          <p>See enrolment, collections, and attendance trends in one dashboard built for decision-makers.</p>
+          <a class="learn-more" href="features.html#dashboards">Learn more</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">Getting started</p>
+        <h2>How it works</h2>
+      </div>
+      <div class="steps">
+        <div class="step-card reveal">
+          <span class="step-number">01</span>
+          <h3>Book a demonstration</h3>
+          <p>Tell us about your school and we'll walk you through the platform live.</p>
+        </div>
+        <div class="step-card reveal">
+          <span class="step-number">02</span>
+          <h3>Configure your school</h3>
+          <p>We set up your classes, fee structures, and modules to match how your school runs.</p>
+        </div>
+        <div class="step-card reveal">
+          <span class="step-number">03</span>
+          <h3>Import or register users and students</h3>
+          <p>Bring in existing records or register students and staff fresh, with guided support.</p>
+        </div>
+        <div class="step-card reveal">
+          <span class="step-number">04</span>
+          <h3>Start managing your school online</h3>
+          <p>Your team logs in and begins working from a single, secure system.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ROLE-BASED BENEFITS ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">Built for every role</p>
+        <h2>Benefits for your whole team</h2>
+      </div>
+
+      <div class="role-tabs" data-tabs>
+        <div class="role-tablist" role="tablist" aria-label="School roles">
+          <button class="role-tab" role="tab" aria-selected="true" aria-controls="role-directors" id="tab-directors">Directors</button>
+          <button class="role-tab" role="tab" aria-selected="false" aria-controls="role-headteachers" id="tab-headteachers">Head Teachers</button>
+          <button class="role-tab" role="tab" aria-selected="false" aria-controls="role-bursars" id="tab-bursars">Bursars</button>
+          <button class="role-tab" role="tab" aria-selected="false" aria-controls="role-teachers" id="tab-teachers">Teachers</button>
+          <button class="role-tab" role="tab" aria-selected="false" aria-controls="role-parents" id="tab-parents">Parents</button>
+        </div>
+
+        <div class="role-panel active" role="tabpanel" id="role-directors" aria-labelledby="tab-directors">
+          <div class="role-panel-inner">
             <div>
-              <div class="panel vstack gap-2">
-                <h3 class="h4 sm:h3 lg:h2 m-0">
-                  Improve attendance and academic performance
-                </h3>
-
-                <p class="fs-6 lg:fs-5 dark:opacity-80">
-                  Record daily attendance, manage classes, enter marks and
-                  generate report cards from one platform. Give teachers and
-                  administrators the tools they need to support every learner.
-                </p>
-
-                <a href="features/attendance-and-academics.html"
-                   class="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2">
-                  <span>Find out how</span>
-                  <i class="position-relative icon icon-1 unicon-arrow-up-right rtl:rotate-180 translate-y-px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="feature-item panel">
-    <div class="row child-cols col-match justify-between g-4">
-      <div class="col-12 sm:col-6">
-        <figure class="featured-image m-0 rounded ratio ratio-1x1 rounded-2 overflow-hidden">
-          <img class="media-cover image"
-               src="assets/images/template/Home_Images-04.png"
-               alt="Access school reports and improve communication">
-        </figure>
-      </div>
-
-      <div class="col-12 sm:col-6">
-        <div class="panel">
-          <div class="panel vstack justify-center gap-4 h-100 sm:p-3 lg:p-4">
-            <div>
-              <div class="panel vstack gap-2">
-                <h3 class="h4 sm:h3 lg:h2 m-0">
-                  Make informed decisions with accurate reports
-                </h3>
-
-                <p class="fs-6 lg:fs-5 dark:opacity-80">
-                  Access clear reports on enrolment, fees, attendance and
-                  academic performance. Keep parents, teachers and school
-                  administrators informed through timely communication.
-                </p>
-
-                <a href="features/reports-and-communication.html"
-                   class="uc-link fw-bold hstack gap-narrow mt-2 sm:mt-1 lg:mt-2">
-                  <span>Find out how</span>
-                  <i class="position-relative icon icon-1 unicon-arrow-up-right rtl:rotate-180 translate-y-px"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-<div id="integrations" class="integrations section panel overflow-hidden">
-  <div class="section-outer panel py-4 xl:py-2 bg-gray-50 dark:bg-gray-800 dark:text-white">
-    <div class="container max-w-lg">
-      <div class="section-inner panel">
-        <div class="panel vstack items-center gap-4 sm:gap-4 xl:gap-4"
-             data-anime="onview: -100; targets: >*; translateY: [4, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 50; delay: anime.stagger(10, {start: 10});">
-
-          <div class="panel vstack items-center gap-1 xl:gap-3 text-center">
-            <h2 class="h3 lg:h3 xl:h2 m-0 sm:mt-0 from-blue to-orange text-transparent bg-gradient-to-r bg-clip-text">
-              What makes SchoolHubUG® unique?
-            </h2>
-
-            <p class="fs-5 xl:fs-4 text-dark dark:text-white text-opacity-80">
-              Manage every part of your school from one secure, simple and reliable platform.
-            </p>
-          </div>
-
-          <div class="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 lg:g-4 justify-between"
-               data-anime="onview: -100; targets: > *; translateY: [4, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});">
-
-            <div>
-              <div class="panel vstack justify-between gap-4 p-3 rounded lg:rounded-2 bg-white dark:bg-gray-700 text-dark dark:text-white">
-                <div class="vstack gap-3">
-                  <div class="hstack justify-between items-center">
-                    <div class="vstack">
-                      <h5 class="h4 m-0 text-dark dark:text-white">
-                        Affordable Pricing
-                      </h5>
-                    </div>
-
-                    <i class="icon icon-3 unicon-currency-dollar text-warning"></i>
-                  </div>
-
-                  <p class="fs-5 opacity-70 dark:opacity-80">
-                    Choose a flexible plan that suits your school's size and
-                    budget, with clear pricing and no unexpected charges.
-                  </p>
-                </div>
-
-                <a class="uc-link fw-bold fs-7 d-inline-flex items-center gap-narrow"
-                   href="pricing.html">
-                  <span>Explore</span>
-                  <i class="icon icon-narrow unicon-arrow-up-right rtl:rotate-180"></i>
-                </a>
-              </div>
-            </div>
-
-            <div>
-              <div class="panel vstack justify-between gap-4 p-3 rounded lg:rounded-2 bg-white dark:bg-gray-700 text-dark dark:text-white">
-                <div class="vstack gap-3">
-                  <div class="hstack justify-between items-center">
-                    <div class="vstack">
-                      <h5 class="h4 m-0 text-dark dark:text-white">
-                        Private and Secure
-                      </h5>
-                    </div>
-
-                    <i class="icon icon-3 unicon-security-filled"></i>
-                  </div>
-
-                  <p class="fs-5 opacity-70 dark:opacity-80">
-                    Protect student, staff and financial information with
-                    secure access controls, reliable backups and detailed
-                    activity records.
-                  </p>
-                </div>
-
-                <a class="uc-link fw-bold fs-7 d-inline-flex items-center gap-narrow"
-                   href="features/data-security-and-audit-trail.html">
-                  <span>Explore</span>
-                  <i class="icon icon-narrow unicon-arrow-up-right rtl:rotate-180"></i>
-                </a>
-              </div>
-            </div>
-
-            <div>
-              <div class="panel vstack justify-between gap-4 p-3 rounded lg:rounded-2 bg-white dark:bg-gray-700 text-dark dark:text-white">
-                <div class="vstack gap-3">
-                  <div class="hstack justify-between items-center">
-                    <div class="vstack">
-                      <h5 class="h4 m-0 text-dark dark:text-white">
-                        Built for Your School
-                      </h5>
-                    </div>
-
-                    <i class="icon icon-3 unicon-model text-primary"></i>
-                  </div>
-
-                  <p class="fs-5 opacity-70 dark:opacity-80">
-                    Configure SchoolHubUG around your school's classes, grading
-                    system, fee structure and administrative processes.
-                  </p>
-                </div>
-
-                <a class="uc-link fw-bold fs-7 d-inline-flex items-center gap-narrow"
-                   href="features.html">
-                  <span>Explore</span>
-                  <i class="icon icon-narrow unicon-arrow-up-right rtl:rotate-180"></i>
-                </a>
-              </div>
-            </div>
-
-          </div>
-
-          <a class="uc-link fw-bold d-inline-flex items-center gap-narrow dark:text-primary"
-             href="features.html">
-            <span>Explore more features</span>
-            <i class="icon icon-1 unicon-arrow-up-right rtl:rotate-180"></i>
-          </a>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div id="pricing_tiers" class="pricing-tiers section panel overflow-hidden">
-  <div class="section-outer panel py-4 xl:py-2">
-    <div class="container max-w-lg">
-      <div class="section-inner panel">
-        <div class="panel vstack items-center gap-4 sm:gap-4 xl:gap-4">
-
-          <div class="heading panel vstack items-center gap-2 xl:gap-2 text-center">
-            <h2 class="h3 lg:h3 xl:h2 m-0 sm:mt-0 from-blue to-orange text-transparent bg-gradient-to-r bg-clip-text">
-              Simple pricing built for your school
-            </h2>
-
-            <p class="fs-5 xl:fs-4 text-dark dark:text-white">
-              Pay once per school term and get the tools, training and support
-              your team needs. Save 10% when you pay annually.
-            </p>
-          </div>
-
-          <div class="panel w-100 lg:max-w-900px border rounded-3 overflow-hidden contrast-shadow-md">
-            <div class="row child-cols-12 sm:child-cols-6 col-match justify-between g-0">
-
-              <!-- Standard plan -->
-              <div>
-                <div class="tier panel vstack gap-2 xl:gap-1 px-3 py-4 sm:p-4 lg:p-6 rounded-0">
-
-                  <div class="panel">
-                    <h3 class="title h5 sm:h4 dark:text-white">
-                      Standard
-                    </h3>
-
-                    <p class="desc opacity-70 dark:text-white dark:opacity-80">
-                      Ideal for small and growing schools with up to 300 students.
-                    </p>
-                  </div>
-
-                  <div class="panel">
-                    <div class="panel vstack gap-narrow">
-                      <h5 class="title h3 sm:h3 m-0 mb-2 dark:text-white">
-                        UGX 350,000
-                        <span class="uc-text-small uc-text-lead uc-text-light">
-                          per school term
-                        </span>
-                      </h5>
-
-                      <span class="fs-6 opacity-70">
-                        UGX 300,000 one-time setup and training fee
-                      </span>
-
-                      <div class="vstack gap-1 justify-center text-center mt-2 mb-1">
-                        <a class="btn btn-md sm:btn-sm lg:btn-md border bg-gray-50 btn-alt-primary text-primary rounded-pill"
-                           href="contact-us.html"
-                           aria-label="Contact SchoolHubUG sales"
-                           role="button">
-                          Contact Sales
-                          <i class="icon icon-1 unicon-arrow-up-right"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="panel">
-                    <div class="panel vstack gap-2">
-                      <span class="fs-6 fw-bold dark:text-white">
-                        Key features:
-                      </span>
-
-                      <div class="hstack gap-1 fs-7">
-                        <i class="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold"></i>
-                        <span>Student enrolment and records</span>
-                      </div>
-
-                      <div class="hstack gap-1 fs-7">
-                        <i class="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold"></i>
-                        <span>Fees, payments and receipts</span>
-                      </div>
-
-                      <div class="hstack gap-1 fs-7">
-                        <i class="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold"></i>
-                        <span>Attendance and class management</span>
-                      </div>
-
-                      <div class="hstack gap-1 fs-7">
-                        <i class="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold"></i>
-                        <span>Examinations and report cards</span>
-                      </div>
-
-                      <div class="hstack gap-1 fs-7">
-                        <i class="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold"></i>
-                        <span>Email and chat support</span>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-              <!-- Premium plan -->
-              <div>
-                <div class="tier panel vstack gap-2 xl:gap-1 px-3 py-4 sm:p-4 lg:p-6 rounded-0 bg-gray-50 dark:bg-gray-800">
-
-                  <span class="position-absolute top-0 end-0 cstack px-1 bg-primary text-white border rounded-pill m-2">
-                    Most Popular
-                  </span>
-
-                  <div class="panel">
-                    <h3 class="title h5 sm:h4 dark:text-white">
-                      Premium
-                    </h3>
-
-                    <p class="desc opacity-70 dark:text-white dark:opacity-80">
-                      Ideal for established schools with up to 800 students.
-                    </p>
-                  </div>
-
-                  <div class="panel">
-                    <div class="panel vstack gap-narrow">
-                      <h5 class="title h3 sm:h3 m-0 mb-2 dark:text-white">
-                        UGX 650,000
-                        <span class="uc-text-small uc-text-lead uc-text-light">
-                          per school term
-                        </span>
-                      </h5>
-
-                      <span class="fs-6 opacity-70">
-                        UGX 300,000 one-time setup and training fee
-                      </span>
-
-                      <div class="vstack gap-1 justify-center text-center mt-2 mb-1">
-                        <a class="btn btn-md sm:btn-sm lg:btn-md btn-primary text-white rounded-pill"
-                           href="contact-us.html"
-                           aria-label="Talk to SchoolHubUG sales"
-                           role="button">
-                          Talk to Sales
-                          <i class="icon icon-1 unicon-arrow-up-right"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="panel">
-                    <div class="panel vstack gap-2">
-                      <span class="fs-6 fw-bold dark:text-white">
-                        Everything in Standard, plus:
-                      </span>
-
-                      <div class="hstack gap-1 fs-7">
-                        <i class="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold"></i>
-                        <span>Parent and student portals</span>
-                      </div>
-
-                      <div class="hstack gap-1 fs-7">
-                        <i class="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold"></i>
-                        <span>Bulk SMS and email communication</span>
-                      </div>
-
-                      <div class="hstack gap-1 fs-7">
-                        <i class="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold"></i>
-                        <span>Staff and payroll management</span>
-                      </div>
-
-                      <div class="hstack gap-1 fs-7">
-                        <i class="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold"></i>
-                        <span>Advanced reports and analytics</span>
-                      </div>
-
-                      <div class="hstack gap-1 fs-7">
-                        <i class="cstack w-16px h-16px bg-primary text-white rounded-circle unicon-checkmark fw-bold"></i>
-                        <span>Priority technical support</span>
-                      </div>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          <p class="fs-6 text-center opacity-70 m-0">
-            Managing more than 800 students or multiple campuses?
-            Contact us for custom pricing.
-          </p>
-
-          <a class="uc-link fw-bold d-inline-flex items-center gap-narrow"
-             href="pricing.html">
-            <span>View detailed pricing</span>
-            <i class="icon icon-1 unicon-arrow-up-right rtl:rotate-180"></i>
-          </a>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<div id="insights" class="insights section panel overflow-hidden">
-  <div class="section-outer panel py-4 xl:py-2 bg-gray-50 dark:bg-primary dark:text-white">
-    <div class="container max-w-lg">
-      <div class="section-inner panel">
-
-        <div class="panel vstack items-center gap-2 sm:gap-2 xl:gap-2"
-             data-anime="onview: -100; targets: >*; translateY: [4, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 50; delay: anime.stagger(10, {start: 10});">
-
-          <div class="panel vstack items-center gap-1 xl:gap-3 text-center">
-            <h2 class="h3 lg:h3 xl:h2 m-0 sm:mt-0 from-blue to-orange text-transparent bg-gradient-to-r bg-clip-text dark:text-white">
-              School Management Insights
-            </h2>
-
-            <p class="fs-5 xl:fs-4 text-dark dark:text-white opacity-80">
-              Practical ideas to help your school improve administration,
-              learning and communication.
-            </p>
-          </div>
-
-          <div class="row child-cols-12 sm:child-cols-6 lg:child-cols-4 col-match g-2 lg:g-4 justify-between"
-               data-anime="onview: -100; targets: > *; translateY: [4, 0]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(100, {start: 200});">
-
-            <!-- Article 1 -->
-            <div>
-              <article class="post type-post panel vstack gap-3 rounded-2 pb-2 p-2 bg-white dark:bg-gray-700">
-
-                <a class="position-absolute top-0 ltr:start-0 rtl:end-0 m-3 fs-7 fw-bold text-none z-1 bg-primary text-white py-narrow px-1 rounded"
-                   href="blog_/category/school-management.html">
-                  School Management
-                </a>
-
-                <figure class="featured-image m-0 rounded ratio ratio-3x2 rounded-2 uc-transition-toggle overflow-hidden">
-                  <img class="media-cover image uc-transition-scale-up uc-transition-opaque"
-                       src="assets/images/blog/digital-school-management.jpg"
-                       alt="School administrators using a digital management system">
-
-                  <a class="position-cover"
-                     data-caption="How digital school management improves administration"
-                     href="blog/how-digital-school-management-improves-administration.html"></a>
-                </figure>
-
-                <header class="panel vstack items-start gap-1 lg:gap-2">
-                  <h4 class="h6 sm:h5 xl:h5 m-0 hover:text-primary">
-                    <a class="text-none"
-                       href="blog/how-digital-school-management-improves-administration.html">
-                      How Digital School Management Improves Administration
-                    </a>
-                  </h4>
-
-                  <ul class="post-meta nav-x ft-tertiary justify-center gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
-                    <li>
-                      <div class="post-date hstack gap-narrow">
-                        <span>August 5, 2026</span>
-                      </div>
-                    </li>
-                  </ul>
-                </header>
-
-              </article>
-            </div>
-
-            <!-- Article 2 -->
-            <div>
-              <article class="post type-post panel vstack gap-3 rounded-2 pb-2 p-2 bg-white dark:bg-gray-700">
-
-                <a class="position-absolute top-0 ltr:start-0 rtl:end-0 m-3 fs-7 fw-bold text-none z-1 bg-primary text-white py-narrow px-1 rounded"
-                   href="blog_/category/fees-and-finance.html">
-                  Fees and Finance
-                </a>
-
-                <figure class="featured-image m-0 rounded ratio ratio-3x2 rounded-2 uc-transition-toggle overflow-hidden">
-                  <img class="media-cover image uc-transition-scale-up uc-transition-opaque"
-                       src="assets/images/blog/school-fees-management.jpg"
-                       alt="School administrator managing fees and payments">
-
-                  <a class="position-cover"
-                     data-caption="Five ways to improve school fee collection"
-                     href="blog/ways-to-improve-school-fee-collection.html"></a>
-                </figure>
-
-                <header class="panel vstack items-start gap-1 lg:gap-2">
-                  <h4 class="h6 sm:h5 xl:h5 m-0 hover:text-primary">
-                    <a class="text-none"
-                       href="blog/ways-to-improve-school-fee-collection.html">
-                      Five Ways to Improve School Fee Collection
-                    </a>
-                  </h4>
-
-                  <ul class="post-meta nav-x ft-tertiary justify-center gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
-                    <li>
-                      <div class="post-date hstack gap-narrow">
-                        <span>July 18, 2026</span>
-                      </div>
-                    </li>
-                  </ul>
-                </header>
-
-              </article>
-            </div>
-
-            <!-- Article 3 -->
-            <div>
-              <article class="post type-post panel vstack gap-3 rounded-2 pb-2 p-2 bg-white dark:bg-gray-700">
-
-                <a class="position-absolute top-0 ltr:start-0 rtl:end-0 m-3 fs-7 fw-bold text-none z-1 bg-primary text-white py-narrow px-1 rounded"
-                   href="blog_/category/academics.html">
-                  Academics
-                </a>
-
-                <figure class="featured-image m-0 rounded ratio ratio-3x2 rounded-2 uc-transition-toggle overflow-hidden">
-                  <img class="media-cover image uc-transition-scale-up uc-transition-opaque"
-                       src="assets/images/blog/student-performance.jpg"
-                       alt="Teacher reviewing student academic performance">
-
-                  <a class="position-cover"
-                     data-caption="Using school data to improve student performance"
-                     href="blog/using-school-data-to-improve-student-performance.html"></a>
-                </figure>
-
-                <header class="panel vstack items-start gap-1 lg:gap-2">
-                  <h4 class="h6 sm:h5 xl:h5 m-0 hover:text-primary">
-                    <a class="text-none"
-                       href="blog/using-school-data-to-improve-student-performance.html">
-                      Using School Data to Improve Student Performance
-                    </a>
-                  </h4>
-
-                  <ul class="post-meta nav-x ft-tertiary justify-center gap-1 fs-7 text-gray-400 dark:text-gray-300 d-none lg:d-flex">
-                    <li>
-                      <div class="post-date hstack gap-narrow">
-                        <span>June 30, 2026</span>
-                      </div>
-                    </li>
-                  </ul>
-                </header>
-
-              </article>
-            </div>
-
-          </div>
-
-          <a class="uc-link fw-bold d-inline-flex items-center gap-narrow dark:text-white"
-             href="blog.html">
-            <span>Explore more insights</span>
-            <i class="icon icon-1 unicon-arrow-up-right rtl:rotate-180"></i>
-          </a>
-
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-<div id="cta" class="cta section panel overflow-hidden">
-  <div class="section-outer panel py-0 xl:py-0 bg-blue-600 dark:bg-primary dark:text-white"
-       style="background-image: url('assets/images/template/Footer_Pattern_SchoolHubUg.svg');
-              background-position: 25% 50%;
-              background-repeat: no-repeat;">
-
-    <div class="section-inner panel overflow-hidden rounded xl:rounded-2 px-2 sm:px-0 py-4 sm:py-6 xl:py-6">
-      <div class="vstack items-center gap-2 max-w-1000px lg:max-w-1000px mx-auto text-center">
-
-        <div class="scene-selector">
-          <h3 class="h3 sm:h3 xl:display-10 m-0 text-white"
-              data-anime="onscroll: .scene-selector; onscroll-duration: 75%; translateX: [40, 0]; opacity: [0, 1]; easing: linear; duration: 100;">
-            Ready to transform how your school is managed?
-          </h3>
-        </div>
-
-        <p class="fs-6 sm:fs-5 text-white dark:text-white">
-          See how SchoolHubUG simplifies student records, fees, attendance,
-          examinations, reporting and parent communication in one platform.
-        </p>
-
-        <a class="btn btn-md btn-dark text-white rounded-pill"
-           href="https://demo.schoolhubug.com/"
-           target="_blank"
-           rel="noopener noreferrer">
-          <span>Start your 30-day free trial</span>
-          <i class="icon icon-1 unicon-arrow-up-right"></i>
-        </a>
-
-        <p class="fs-7 text-white dark:text-white">
-          No payment details required. Setup support included.
-        </p>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-<div class="footer-pattern"
-     style="width: 100%;
-            height: 30px;
-            overflow: hidden;
-            background-color: rgb(24, 28, 34);
-            background-image: url('assets/images/template/footer_pattern.png');
-            background-position: center;
-            background-repeat: repeat;
-            background-size: cover;">
-</div>
-
-<!-- Footer -->
-<footer id="uc-footer" class="uc-footer panel overflow-hidden uc-dark">
-  <div class="footer-outer py-4 lg:py-4 xl:py-6 dark:bg-gray-900 dark:text-white">
-
-    <!-- Newsletter -->
-    <div class="uc-footer-cta pt-0 pb-4 border-bottom" id="subscribe">
-      <div class="container max-w-xl">
-        <div class="uc-footer-inner panel vstack lg:hstack justify-center items-center text-center ltr:lg:text-start rtl:lg:text-end gap-2 sm:gap-2">
-
-          <h2 class="h4 xl:h4 m-0" id="after_form">
-            Get the latest school management insights from SchoolHubUG
-          </h2>
-
-          <div class="panel">
-            <a class="btn-gradient btn btn-md btn-primary rounded-pill w-full h-40px text-white"
-               href="blog.html">
-              Explore Our Insights
-              <i class="icon icon-narrow md:icon-1 unicon-arrow-up-right"></i>
-            </a>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-    <!-- Main footer -->
-    <div class="uc-footer-content pt-4 lg:pt-4">
-      <div class="container max-w-xl">
-        <div class="footer-inner vstack gap-4 lg:gap-4 xl:gap-4">
-
-          <div class="uc-footer-widgets panel">
-            <div class="row child-cols-6 md:child-cols col-match g-4">
-
-              <!-- Brand -->
-              <div class="col-12 lg:col-4">
-                <div class="panel vstack items-start gap-4 ltr:md:pe-8 rtl:md:ps-8">
-
-                  <div class="vstack gap-2 fs-5">
-<a href="index.html">
-  <img class="w-32px text-white"
-       src="assets/images/common/logo-mark.png"
-       alt="SchoolHubUG"
-       data-uc-svg>
-</a>
-                    <p>
-                      SchoolHubUG® is a cloud-based school management system
-                      that helps schools manage student records, fees,
-                      attendance, examinations, staff, reports and parent
-                      communication from one secure platform.
-                    </p>
-                  </div>
-
-                  <div class="hstack items-start gap-1">
-                    <a href="#"
-                       aria-label="Download SchoolHubUG from Google Play">
-                      <img class="text-gray-900 dark:text-white hover:text-opacity-70 transition-all duration-150"
-                           src="assets/images/common/playstore.svg"
-                           alt="Get SchoolHubUG on Google Play"
-                           data-uc-svg>
-                    </a>
-
-                    <a href="#"
-                       class="d-none"
-                       aria-label="Download SchoolHubUG from the App Store">
-                      <img class="text-gray-900 dark:text-white hover:text-opacity-70 transition-all duration-150"
-                           src="assets/images/common/appstore.svg"
-                           alt="Download SchoolHubUG from the App Store"
-                           data-uc-svg>
-                    </a>
-                  </div>
-
-                </div>
-              </div>
-
-              <!-- Company -->
-              <div>
-                <ul class="nav-y gap-1 fs-5">
-                  <li>
-                    <span class="fs-5 fw-bold dark:text-gray-300">
-                      Company
-                    </span>
-                  </li>
-                  <li><a href="about.html">About Us</a></li>
-                  <li><a href="about/team.html">Our Team</a></li>
-                  <li><a href="partners.html">Partners</a></li>
-                  <li><a href="success-stories.html">Success Stories</a></li>
-                  <li><a href="about/events.html">Events</a></li>
-                  <li><a href="about/jobs.html">Careers</a></li>
-                </ul>
-              </div>
-
-              <!-- Product -->
-              <div>
-                <ul class="nav-y gap-1 fs-5">
-                  <li>
-                    <span class="fs-5 fw-bold dark:text-gray-300">
-                      SchoolHubUG
-                    </span>
-                  </li>
-                  <li><a href="features.html">Features</a></li>
-                  <li><a href="pricing.html">Pricing</a></li>
-                  <li><a href="book-demo.html">Book a Demo</a></li>
-                  <li><a href="features/student-management.html">Student Management</a></li>
-                  <li><a href="features/fees-and-payments.html">Fees and Payments</a></li>
-                  <li><a href="features/attendance-and-academics.html">Attendance and Academics</a></li>
-                </ul>
-              </div>
-
-              <!-- Resources -->
-              <div>
-                <ul class="nav-y gap-1 fs-5">
-                  <li>
-                    <span class="fs-5 fw-bold dark:text-gray-300">
-                      Resources
-                    </span>
-                  </li>
-                  <li><a href="blog.html">School Insights</a></li>
-                  <li><a href="about/downloads.html">Downloads</a></li>
-                  <li><a href="help.html">Help Centre</a></li>
-                  <li><a href="contact-us.html">Contact Us</a></li>
-                  <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                  <li><a href="terms-of-use.html">Terms of Use</a></li>
-
-                  <li>
-                    <a href="#"
-                       aria-label="Chat with SchoolHubUG"
-                       role="button"
-                       onclick="CrispStatusCommon.open_chatbox(); return false;"
-                       class="uc-link fw-bold hstack gap-narrow text-white">
-                      <span>Chat With Us</span>
-                      <i class="position-relative icon icon-1 unicon-arrow-up-right rtl:rotate-180 translate-y-px"></i>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- Footer bottom -->
-          <div class="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between pt-4 lg:pt-6 border-top dark:text-white">
-
-            <div class="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
-              <p class="opacity-60 m-0">
-                SchoolHubUG® — Simplifying School Management &copy; 2026.
-                All rights reserved.
-              </p>
-            </div>
-
-            <div class="hstack justify-center lg:justify-end gap-2 lg:gap-3">
-
-              <ul class="nav-x gap-2">
-                <li>
-                  <a href="https://linkedin.com/company/SchoolHubUg"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     aria-label="SchoolHubUG on LinkedIn">
-                    <i class="icon icon-2 unicon-logo-linkedin"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://facebook.com/SchoolHubUg"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     aria-label="SchoolHubUG on Facebook">
-                    <i class="icon icon-2 unicon-logo-facebook"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://x.com/SchoolHubUg"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     aria-label="SchoolHubUG on X">
-                    <i class="icon icon-2 unicon-logo-x-filled"></i>
-                  </a>
-                </li>
-
-                <li>
-                  <a href="https://instagram.com/SchoolHubUg"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     aria-label="SchoolHubUG on Instagram">
-                    <i class="icon icon-2 unicon-logo-instagram"></i>
-                  </a>
-                </li>
+              <h3>For school directors</h3>
+              <ul>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>See enrolment and revenue trends across the whole school</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Review financial accountability without chasing paper records</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Make staffing and investment decisions backed by real data</li>
               </ul>
-
-              <div class="vr"></div>
-
-              <!-- Language selector -->
-              <div class="d-inline-block">
-                <a href="#"
-                   class="hstack gap-1 text-none fw-medium">
-                  <i class="icon icon-1 unicon-earth-filled"></i>
-                  <span>English</span>
-                  <span data-uc-drop-parent-icon></span>
-                </a>
-
-                <div class="p-2 bg-white dark:bg-gray-800 shadow-xs rounded w-150px"
-                     data-uc-drop="mode: click; offset: 28; pos: top-right; boundary: !.uc-footer-bottom; animation: uc-animation-slide-top-small; duration: 150;">
-                  <ul class="nav-y gap-1 fw-medium items-end">
-                    <li><a href="?lang=en">English</a></li>
-                    <li><a href="?lang=lg">Luganda</a></li>
-                  </ul>
-                </div>
-              </div>
-
+            </div>
+            <div class="role-photo">
+              <img src="https://images.pexels.com/photos/34162714/pexels-photo-34162714.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Students focused on their studies in a Ugandan-style classroom" loading="lazy" onerror="this.parentElement.style.background='var(--grey-100)'; this.remove();">
             </div>
           </div>
+        </div>
 
+        <div class="role-panel" role="tabpanel" id="role-headteachers" aria-labelledby="tab-headteachers" hidden>
+          <div class="role-panel-inner">
+            <div>
+              <h3>For head teachers</h3>
+              <ul>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Oversee academic performance and discipline records in one view</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Coordinate staff and class schedules with fewer clashes</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Approve report cards before they reach parents</li>
+              </ul>
+            </div>
+            <div class="role-photo">
+              <img src="https://images.pexels.com/photos/31820972/pexels-photo-31820972.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Head teacher leading a classroom training session" loading="lazy" onerror="this.parentElement.style.background='var(--grey-100)'; this.remove();">
+            </div>
+          </div>
+        </div>
+
+        <div class="role-panel" role="tabpanel" id="role-bursars" aria-labelledby="tab-bursars" hidden>
+          <div class="role-panel-inner">
+            <div>
+              <h3>For bursars</h3>
+              <ul>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Track fees balances and payment history per student</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Reconcile SchoolPay transactions where configured</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Produce income and expense reports for audits and reviews</li>
+              </ul>
+            </div>
+            <div class="role-photo">
+              <img src="https://images.pexels.com/photos/28593054/pexels-photo-28593054.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Young students working at their desks in class" loading="lazy" onerror="this.parentElement.style.background='var(--grey-100)'; this.remove();">
+            </div>
+          </div>
+        </div>
+
+        <div class="role-panel" role="tabpanel" id="role-teachers" aria-labelledby="tab-teachers" hidden>
+          <div class="role-panel-inner">
+            <div>
+              <h3>For teachers</h3>
+              <ul>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Enter marks and attendance quickly, from any device</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Track behaviour notes per student across the term</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Generate report card entries without manual re-typing</li>
+              </ul>
+            </div>
+            <div class="role-photo">
+              <img src="https://images.pexels.com/photos/34162714/pexels-photo-34162714.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Students concentrating during a lesson" loading="lazy" onerror="this.parentElement.style.background='var(--grey-100)'; this.remove();">
+            </div>
+          </div>
+        </div>
+
+        <div class="role-panel" role="tabpanel" id="role-parents" aria-labelledby="tab-parents" hidden>
+          <div class="role-panel-inner">
+            <div>
+              <h3>For parents and guardians</h3>
+              <ul>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Receive fee balance and attendance updates by SMS</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Stay informed about school announcements in real time</li>
+                <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>See their child's academic progress each term</li>
+              </ul>
+            </div>
+            <div class="role-photo">
+              <img src="https://images.pexels.com/photos/28593054/pexels-photo-28593054.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Children engaged in classroom activities" loading="lazy" onerror="this.parentElement.style.background='var(--grey-100)'; this.remove();">
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </section>
 
+  <!-- ============ DASHBOARD SHOWCASE ============ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">See it in action</p>
+        <h2>One dashboard, the whole school</h2>
+      </div>
+
+      <div class="dashboard-mock reveal">
+        <div class="browser-bar">
+          <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
+          <span class="browser-url">app.schoolhubug.com/dashboard</span>
+        </div>
+        <div class="dashboard-body">
+          <span class="dashboard-sample-note">All figures below are sample data for illustration only</span>
+
+          <div class="stat-grid">
+            <div class="stat-tile">
+              <p class="stat-label">Total Students</p>
+              <p class="stat-value">1,248</p>
+              <p class="stat-delta up">↑ 4.2% this term</p>
+            </div>
+            <div class="stat-tile">
+              <p class="stat-label">Fees Collected</p>
+              <p class="stat-value">UGX 312M</p>
+              <p class="stat-delta up">↑ 8.1% vs last term</p>
+            </div>
+            <div class="stat-tile">
+              <p class="stat-label">Outstanding Balances</p>
+              <p class="stat-value">UGX 46M</p>
+              <p class="stat-delta down">↓ 3.4% vs last term</p>
+            </div>
+            <div class="stat-tile">
+              <p class="stat-label">Attendance</p>
+              <p class="stat-value">96.3%</p>
+              <p class="stat-delta up">↑ 1.1% this week</p>
+            </div>
+          </div>
+
+          <div class="dashboard-panels">
+            <div class="dashboard-panel">
+              <h4>Income vs Expenses (sample, last 6 terms)</h4>
+              <div class="bar-chart" aria-hidden="true">
+                <div class="bar income" style="height: 60%"></div>
+                <div class="bar expense" style="height: 38%"></div>
+                <div class="bar income" style="height: 72%"></div>
+                <div class="bar expense" style="height: 44%"></div>
+                <div class="bar income" style="height: 85%"></div>
+                <div class="bar expense" style="height: 50%"></div>
+                <div class="bar income" style="height: 95%"></div>
+                <div class="bar expense" style="height: 55%"></div>
+              </div>
+            </div>
+            <div class="dashboard-panel">
+              <h4>Recent admissions (sample)</h4>
+              <ul class="mini-list">
+                <li><span>Namutebi A. — P.4</span><span>Today</span></li>
+                <li><span>Okello D. — S.1</span><span>Today</span></li>
+                <li><span>Achieng P. — Baby Class</span><span>Yesterday</span></li>
+                <li><span>Ssekandi J. — S.4</span><span>2 days ago</span></li>
+              </ul>
+              <h4 style="margin-top: var(--sp-5);">Upcoming assessments (sample)</h4>
+              <ul class="mini-list">
+                <li><span>Mid-term Mathematics</span><span>Mon</span></li>
+                <li><span>English Composition</span><span>Wed</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">Why SchoolHubUG</p>
+        <h2>Why choose SchoolHubUG?</h2>
+      </div>
+      <div class="grid grid-4">
+        <div class="reveal"><h4>Designed for Uganda's education environment</h4><p class="text-muted" style="font-size:var(--fs-sm)">Built around how Ugandan schools actually operate, term to term.</p></div>
+        <div class="reveal"><h4>All-in-one school administration</h4><p class="text-muted" style="font-size:var(--fs-sm)">Admissions, academics, and finance in a single system.</p></div>
+        <div class="reveal"><h4>Secure role-based access</h4><p class="text-muted" style="font-size:var(--fs-sm)">Every staff member only sees what their role requires.</p></div>
+        <div class="reveal"><h4>Fast onboarding</h4><p class="text-muted" style="font-size:var(--fs-sm)">Get your school configured and running with guided setup.</p></div>
+        <div class="reveal"><h4>Cloud-based access</h4><p class="text-muted" style="font-size:var(--fs-sm)">Log in from any device, on or off campus.</p></div>
+        <div class="reveal"><h4>Responsive customer support</h4><p class="text-muted" style="font-size:var(--fs-sm)">Real people, ready to help when you need them.</p></div>
+        <div class="reveal"><h4>Scalable for growing schools</h4><p class="text-muted" style="font-size:var(--fs-sm)">From a single campus to multiple branches.</p></div>
+        <div class="reveal"><h4>Clear financial and academic reporting</h4><p class="text-muted" style="font-size:var(--fs-sm)">Reports that are easy to generate and easy to trust.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">What schools say</p>
+        <h2>Testimonials</h2>
+      </div>
+
+      <div data-slider style="max-width: 680px; margin-inline: auto;">
+        <div class="testimonial-card">
+          <span class="testimonial-flag">Sample testimonial — replace with verified customer feedback</span>
+          <blockquote>"Since setting up our fee tracking, our bursar's office has a much clearer picture of who has paid and who hasn't."</blockquote>
+          <div class="testimonial-person">
+            <span class="avatar-mark" aria-hidden="true">HT</span>
+            <div><p class="name">Head Teacher</p><p class="role">Secondary school, Central Uganda</p></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-flag">Sample testimonial — replace with verified customer feedback</span>
+          <blockquote>"Report cards used to take our teachers days to prepare. Now it's a matter of hours."</blockquote>
+          <div class="testimonial-person">
+            <span class="avatar-mark" aria-hidden="true">SD</span>
+            <div><p class="name">School Director</p><p class="role">Primary school, Wakiso District</p></div>
+          </div>
+        </div>
+        <div class="testimonial-card">
+          <span class="testimonial-flag">Sample testimonial — replace with verified customer feedback</span>
+          <blockquote>"Parents appreciate getting fee and attendance updates directly on their phones."</blockquote>
+          <div class="testimonial-person">
+            <span class="avatar-mark" aria-hidden="true">BU</span>
+            <div><p class="name">Bursar</p><p class="role">Combined school, Mbarara</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-controls" data-slider-dots></div>
+    </div>
+  </section>
+
+  <!-- ============ PRICING PREVIEW ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">Plans for every school size</p>
+        <h2>Simple, transparent pricing</h2>
+        <p class="lead">Final pricing depends on your student population and the modules you need. <a href="pricing.html" style="color: var(--teal-600); font-weight:600;">See full pricing details →</a></p>
+      </div>
+
+      <div class="grid grid-3">
+        <div class="pricing-card reveal">
+          <h3>Starter</h3>
+          <p class="plan-desc">For small schools getting started with digital records.</p>
+          <p class="price">Contact us <span class="period">for a tailored quote</span></p>
+          <ul class="plan-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Admissions &amp; student records</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Basic fees tracking</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Report cards</li>
+          </ul>
+          <a href="contact.html" class="btn btn-secondary btn-block">Request a Demo</a>
+        </div>
+
+        <div class="pricing-card featured reveal">
+          <span class="pricing-badge">Most Popular</span>
+          <h3>Growth</h3>
+          <p class="plan-desc">For expanding schools that need finance and communication tools.</p>
+          <p class="price">Contact us <span class="period">for a tailored quote</span></p>
+          <ul class="plan-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Everything in Starter</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>SchoolPay reconciliation</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>SMS parent communication</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Income &amp; expense tracking</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary btn-block">Request a Demo</a>
+        </div>
+
+        <div class="pricing-card reveal">
+          <h3>Enterprise</h3>
+          <p class="plan-desc">For large or multi-campus institutions with custom needs.</p>
+          <p class="price">Contact us <span class="period">for a tailored quote</span></p>
+          <ul class="plan-features">
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Everything in Growth</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Multi-campus dashboards</li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>Dedicated onboarding support</li>
+          </ul>
+          <a href="contact.html" class="btn btn-secondary btn-block">Talk to Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ PREVIEW ============ -->
+  <section class="section section-alt">
+    <div class="container">
+      <div class="section-head center">
+        <p class="eyebrow">Questions, answered</p>
+        <h2>Frequently asked questions</h2>
+      </div>
+
+      <div class="accordion" style="max-width: 760px; margin-inline:auto;">
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-1">Is SchoolHubUG cloud-based?<span class="plus" aria-hidden="true"></span></button>
+          <div class="accordion-panel" id="faq-1"><div class="accordion-panel-inner">Yes. SchoolHubUG runs in the cloud, so authorised staff can access it from any device with an internet connection.</div></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-2">Does SchoolHubUG integrate with SchoolPay?<span class="plus" aria-hidden="true"></span></button>
+          <div class="accordion-panel" id="faq-2"><div class="accordion-panel-inner">SchoolHubUG can help schools reconcile and monitor SchoolPay transactions where that integration has been configured. SchoolHubUG does not own or officially partner with SchoolPay.</div></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-3">How is our school's data kept secure?<span class="plus" aria-hidden="true"></span></button>
+          <div class="accordion-panel" id="faq-3"><div class="accordion-panel-inner">Access is role-based, so staff only see the records relevant to their responsibilities, and data is stored securely in the cloud.</div></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-4">Do you provide staff training?<span class="plus" aria-hidden="true"></span></button>
+          <div class="accordion-panel" id="faq-4"><div class="accordion-panel-inner">Yes. Onboarding includes guided setup and training so your staff feel confident using the system from day one.</div></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-5">Can we import our existing student records?<span class="plus" aria-hidden="true"></span></button>
+          <div class="accordion-panel" id="faq-5"><div class="accordion-panel-inner">Yes, existing records can be imported during setup, or your team can register students fresh with our guided support.</div></div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="faq-6">Can SchoolHubUG be accessed on phones and tablets?<span class="plus" aria-hidden="true"></span></button>
+          <div class="accordion-panel" id="faq-6"><div class="accordion-panel-inner">Yes, the platform is responsive and works on phones, tablets, and desktop computers.</div></div>
+        </div>
+      </div>
+      <div class="flex-center" style="margin-top: var(--sp-6);">
+        <a href="faq.html" class="btn btn-secondary">View all FAQs</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FINAL CTA ============ -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-band reveal">
+        <h2>Ready to Simplify Your School Management?</h2>
+        <p>Book a free demo and see how SchoolHubUG fits your school's daily workflow.</p>
+        <div class="btn-group flex-center">
+          <a href="contact.html" class="btn btn-primary btn-lg">Request a Free Demo</a>
+          <a href="https://wa.me/256782863209?text=Hello%20SchoolHubUG%2C%20I%20would%20like%20to%20request%20a%20demonstration%20of%20the%20school%20management%20system." class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">Chat on WhatsApp</a>
+        </div>
+        <div class="cta-contacts">
+          <a href="tel:+256782863209"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>+256 782 863 209</a>
+          <a href="mailto:dualhubtechnologies@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>dualhubtechnologies@gmail.com</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <span class="logo-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/></svg></span>
+          SchoolHubUG
+        </a>
+        <p>Cloud-based school management for nursery, primary, secondary, and tertiary institutions in Uganda.</p>
+        <div class="footer-social" aria-label="Social media links">
+          <a href="#" aria-label="SchoolHubUG on Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 10-11.6 9.9v-7H7.9V12h2.5V9.8c0-2.5 1.5-3.9 3.8-3.9 1.1 0 2.2.2 2.2.2v2.4h-1.3c-1.2 0-1.6.8-1.6 1.6V12h2.8l-.4 2.9h-2.4v7A10 10 0 0022 12z"/></svg></a>
+          <a href="#" aria-label="SchoolHubUG on Twitter / X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.9 2H22l-7.4 8.5L23 22h-6.9l-5.4-6.6L4.5 22H1.4l7.9-9.1L1 2h7l4.9 6L18.9 2z"/></svg></a>
+          <a href="#" aria-label="SchoolHubUG on LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 6.5a2 2 0 11-4-.002 2 2 0 014 .002zM7 8.75H3V21h4V8.75zm6.5 0h-3.8V21h3.8v-6.3c0-3.5 4.5-3.8 4.5 0V21H22v-7.1c0-6.3-6.9-6-8.5-2.9V8.75z"/></svg></a>
+        </div>
+      </div>
+      <nav class="footer-col" aria-label="Site">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Features">
+        <h4>Features</h4>
+        <ul>
+          <li><a href="features.html#admissions">Admissions</a></li>
+          <li><a href="features.html#fees">Fees Management</a></li>
+          <li><a href="features.html#schoolpay">SchoolPay Integration</a></li>
+          <li><a href="features.html#dashboards">Dashboards &amp; Analytics</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-col" aria-label="Legal">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="login.html">Portal Login</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> SchoolHubUG — A product of DualHub Technologies. www.schoolhubug.com</span>
+      <span><a href="mailto:dualhubtechnologies@gmail.com">dualhubtechnologies@gmail.com</a> · <a href="tel:+256782863209">+256 782 863 209</a></span>
+    </div>
   </div>
 </footer>
-<!-- Jquery & Bootstrap js -->
-<script defer src="assets/js/libs/jquery.min.js"></script>
-<script defer src="assets/js/libs/bootstrap.min.js"></script>
-<!-- Scripts -->
-<script defer src="assets/js/libs/anime.min.js"></script>
-<script defer src="assets/js/libs/swiper-bundle.min.js"></script>
-<script defer src="assets/js/libs/scrollmagic.min.js"></script>
-<script defer src="assets/js/libs/typed.min.js"></script>
-<script defer src="assets/js/helpers/data-attr-helper.js"></script>
-<script defer src="assets/js/helpers/swiper-helper.js"></script>
-<script defer src="assets/js/helpers/anime-helper.js"></script>
-<script defer src="assets/js/helpers/typed-helper.js"></script>
-<script defer src="assets/js/helpers/anime-helper-defined-timelines.js"></script>
-<script defer src="assets/js/uikit-components-bs.js"></script>
-<!-- App Script -->
-<script defer src="assets/js/app.js"></script>
-<!-- Crisp Js -->
-<script type="text/javascript" src="../static.crisp.watch/javascripts/site/common/common.min.js"></script>
-<script>
-  // Schema toggle via URL
-  const queryString = window.location.search;
-  const urlParams = new URLSearchParams(queryString);
-  const getSchema = urlParams.get("schema");
-  if (getSchema === "dark") {
-    setDarkMode(1);
-  } else if (getSchema === "light") {
-    setDarkMode(0);
-  }
-  // Crisp ChatBot -->
-    window.$crisp=[];window.CRISP_WEBSITE_ID="f63f536c-4b7f-43d6-8c91-7684963d6902";(function(){d=document;s=d.createElement("script");s.src="../client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();
-        $crisp.push(["do", "session:reset"])
-  </script>
-  <!-- /End Crisp -->
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MTTDQTP3" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- /End Google Tag Manager (noscript) -->
 
-  <!-- reCaptcha  -->
-  <script>
-    function onClick(e) {
-      e.preventDefault();
-      grecaptcha.enterprise.ready(async () => {
-        const token = await grecaptcha.enterprise.execute('6LeJ9yEsAAAAAKbwP8Q1ZhbQGA-GS3Ezk2a7SpaV', {action: 'LOGIN'});
-      });
-    }
-  </script>
-  <!-- /End reCaptcha -->
+<a href="https://wa.me/256782863209?text=Hello%20SchoolHubUG%2C%20I%20would%20like%20to%20request%20a%20demonstration%20of%20the%20school%20management%20system." class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat with SchoolHubUG on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.87.52 3.62 1.42 5.12L2 22l5.13-1.51a9.87 9.87 0 004.91 1.31h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.51 2 12.04 2zm0 17.9a8 8 0 01-4.08-1.12l-.29-.17-3.05.9.9-2.97-.19-.3a7.9 7.9 0 01-1.22-4.24 8.02 8.02 0 1113.98 5.35 7.93 7.93 0 01-5.05 2.55h-1z"/></svg>
+</a>
+<button class="back-to-top" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<div class="cookie-banner" role="dialog" aria-label="Cookie notice">
+  <p>We use minimal cookies to remember your preferences on this site. See our <a href="privacy.html" style="color:var(--white); text-decoration:underline;">Privacy Policy</a>.</p>
+  <button class="btn btn-primary btn-sm" data-cookie-accept>Accept</button>
+</div>
+
+<script src="script.js"></script>
 </body>
-
 </html>
